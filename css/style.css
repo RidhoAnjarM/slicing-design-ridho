@@ -1,0 +1,278 @@
+* ,body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --Green: #B9FF66;
+  --Dark: #000000;
+  --Grey: #F3F3F3;
+}
+
+.landing{
+  padding-inline: 100px;
+}
+
+.navigationbar{
+  margin-top: 40px;
+  width: 100%px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{ /*logo positivus*/
+  display: flex;
+  width: 219.537px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 12.92px;
+}
+
+.navigasi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigasi li{
+  list-style: none;
+  padding-right: 40px;
+}
+
+.navigasi li a{
+  text-decoration: none;
+  color: #000;
+  font-family: "Space Grotesk";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+  gap: 40px;
+}
+
+.button{ /*button reques a quote*/
+  border: 1px solid #000;
+  border-radius: 14px;
+}
+
+.button a{
+  text-decoration: none;
+  color: var(--Dark);
+  font-family: "Space Grotesk";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  display: flex;
+  padding: 20px 35px;
+  align-items: flex-start;
+}
+
+section{
+  width: 100%;
+  margin: 70px 0px 70px 0px;
+}
+
+.ilustration{
+  float: right;
+}
+
+section h1{
+  width: 531px;
+  color: #000;
+  font-family: "Space Grotesk";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  float: left;
+  margin: 0px 0px 35px 0px;
+}
+
+section p{
+  width: 498px;
+  color: #000;
+  font-family: "Space Grotesk";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+  margin: 35px 0px 35px 0px;
+}
+
+.buttonn{
+  display: block;
+  padding: 20px 35px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 14px;
+  background: var(--Dark, #191A23);
+  float: left;
+  margin-bottom: 70px;
+}
+
+.buttonn a{
+  color: #FFF;
+  text-align: center;
+  font-family: "Space Grotesk";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  text-decoration: none;
+}
+
+.company{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.company li{
+
+  justify-content: space-between;
+  list-style: none;
+  padding-right: 96px;
+}
+
+.company a{
+  width: 128.626px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.heading{
+  margin: 115px 0px;
+  width: 100%;
+  display: flex;
+}
+
+.heading h2{
+  color: #000;
+  font-family: "Space Grotesk";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.heading p{
+  width: 580px;
+  color: #000;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.border-box{ /*Teks Services*/
+  display: flex;
+  width: 180px;
+  height: 51px;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--Green);
+  margin-right: 40px;
+  border-radius: 7px;
+}
+
+main{
+  display: flex;
+  width: 100%;
+  padding-inline: 100px;
+  justify-content: space-between;
+}
+
+.cards{
+  width: 600px;
+  padding: 50px;
+  align-items: center;
+  border-radius: 45px;
+  border: 1px solid var(--Dark);
+  background: var(--Grey);
+  box-shadow: 0px 5px 0px 0px #191A23;
+}
+
+.heading3{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cards h3{
+  display: flex;
+  color: #000;
+  font-family: "Space Grotesk";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--Green);
+  border-radius: 7px;
+  padding: 0px 7px 0px 7px;
+  float: left;
+}
+
+.cards p{
+  color: var(--Black, #000);
+  font-family: "Space Grotesk";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+  margin: 0px 0px 0px 15px;
+}
+
+.link{
+  margin: 93px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.image{
+  margin: 0px 0px 0px 0px;
+  float: right;
+}
+
+.cards2{
+  display: flex;
+  width: 600px;
+  padding: 50px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 45px;
+  border: 1px solid var(--Dark);
+  background: var(--Green);
+  box-shadow: 0px 5px 0px 0px #191A23;
+}
+
+.cards2 h3{
+  display: flex;
+  color: #000;
+  font-family: "Space Grotesk";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--Green);
+  border-radius: 7px;
+  padding: 0px 7px 0px 7px;
+  float: left;
+}
+
+.cards2 p{
+  color: var(--Black, #000);
+  font-family: "Space Grotesk";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+  margin: 0px 0px 0px 15px;
+}

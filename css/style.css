@@ -1,28 +1,33 @@
-* ,body{
+*,
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root{
+:root {
   --Green: #B9FF66;
-  --Dark: #000000;
+  --Dark: #191A23;
   --Grey: #F3F3F3;
 }
 
-.landing{
+header {
   padding-inline: 100px;
+  margin-bottom: 70px;
+  width: 1443px fixed;
 }
 
-.navigationbar{
+.navbar {
   margin-top: 40px;
-  width: 100%px;
+  margin-bottom: 70px;
+  width: 1443px fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logo{ /*logo positivus*/
+.icon {
+  /*logo positivus*/
   display: flex;
   width: 219.537px;
   height: 36px;
@@ -31,34 +36,35 @@
   gap: 12.92px;
 }
 
-.navigasi{
+.navigasi {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.navigasi li{
+.navigasi li {
   list-style: none;
   padding-right: 40px;
 }
 
-.navigasi li a{
+.navigasi li a {
   text-decoration: none;
   color: #000;
   font-family: "Space Grotesk";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; 
+  line-height: 28px;
   gap: 40px;
 }
 
-.button{ /*button reques a quote*/
+.button {
+  /*button reques a quote*/
   border: 1px solid #000;
   border-radius: 14px;
 }
 
-.button a{
+.button a {
   text-decoration: none;
   color: var(--Dark);
   font-family: "Space Grotesk";
@@ -71,16 +77,11 @@
   align-items: flex-start;
 }
 
-section{
-  width: 100%;
-  margin: 70px 0px 70px 0px;
-}
-
-.ilustration{
+.ilustration {
   float: right;
 }
 
-section h1{
+header h1 {
   width: 531px;
   color: #000;
   font-family: "Space Grotesk";
@@ -92,18 +93,18 @@ section h1{
   margin: 0px 0px 35px 0px;
 }
 
-section p{
+header p {
   width: 498px;
   color: #000;
   font-family: "Space Grotesk";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; 
+  line-height: 28px;
   margin: 35px 0px 35px 0px;
 }
 
-.buttonn{
+.buttonn {
   display: block;
   padding: 20px 35px;
   align-items: flex-start;
@@ -114,43 +115,55 @@ section p{
   margin-bottom: 70px;
 }
 
-.buttonn a{
+.buttonn a {
   color: #FFF;
   text-align: center;
   font-family: "Space Grotesk";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; /* 140% */
+  line-height: 28px;
   text-decoration: none;
 }
 
-.company{
+/*Batas header*/
+
+.container {
+  width: 1443px fixed;
+  padding-inline: 100px;
+  flex-wrap: wrap;
+}
+
+.logotypes {
+  justify-content: space-between;
   display: flex;
   width: 100%;
-  justify-content: space-between;
 }
 
-.company li{
-
+.logo {
   justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+
+.logo li {
   list-style: none;
-  padding-right: 96px;
+  padding-right: 96;
 }
 
-.company a{
+.logo a {
   width: 128.626px;
   height: 48px;
-  flex-shrink: 0;
+
 }
 
-.heading{
-  margin: 115px 0px;
+.heading {
+  margin: 104px 0px;
   width: 100%;
   display: flex;
 }
 
-.heading h2{
+.heading h2 {
   color: #000;
   font-family: "Space Grotesk";
   font-size: 40px;
@@ -159,7 +172,7 @@ section p{
   line-height: normal;
 }
 
-.heading p{
+.heading p {
   width: 580px;
   color: #000;
   font-family: "Space Grotesk";
@@ -169,7 +182,8 @@ section p{
   line-height: normal;
 }
 
-.border-box{ /*Teks Services*/
+.services {
+  /*Teks Services*/
   display: flex;
   width: 180px;
   height: 51px;
@@ -180,14 +194,16 @@ section p{
   border-radius: 7px;
 }
 
-main{
+.content {
   display: flex;
-  width: 100%;
-  padding-inline: 100px;
   justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
-.cards{
+.cards,
+.cards4 {
+  /*card ke 1&4 warna Grey*/
   width: 600px;
   padding: 50px;
   align-items: center;
@@ -195,17 +211,47 @@ main{
   border: 1px solid var(--Dark);
   background: var(--Grey);
   box-shadow: 0px 5px 0px 0px #191A23;
+  margin-bottom: 40px;
 }
 
-.heading3{
+.cards2,
+.cards5 {
+  /*card ke 2&5 warna Green*/
+  width: 600px;
+  padding: 50px;
+  align-items: center;
+  border-radius: 45px;
+  border: 1px solid var(--Dark);
+  background: var(--Green);
+  box-shadow: 0px 5px 0px 0px #191A23;
+  margin-bottom: 40px;
+}
+
+.cards3,
+.cards6 {
+  /*card ke 3&6 warna Dark*/
+  width: 600px;
+  padding: 50px;
+  align-items: center;
+  border-radius: 45px;
+  border: 1px solid var(--Dark);
+  background: var(--Dark);
+  box-shadow: 0px 5px 0px 0px #191A23;
+  margin-bottom: 40px;
+}
+
+.heading3 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.cards h3{
+.cards h3,
+.cards4 h3,
+.cards6 h3 {
+  /*Teks h3 di card background Green color Dark*/
   display: flex;
-  color: #000;
+  color: var(--Dark);
   font-family: "Space Grotesk";
   font-size: 30px;
   font-style: normal;
@@ -218,61 +264,96 @@ main{
   float: left;
 }
 
-.cards p{
+.cards2 h3,
+.cards3 h3,
+.cards5 h3 {
+  /*Teks h3 di card background White color Dark*/
+  display: flex;
+  color: var(--Dark);
+  font-family: "Space Grotesk";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 7px;
+  padding: 0px 7px 0px 7px;
+  float: left;
+}
+
+.cards p,
+.cards2 p,
+.cards4 p,
+.cards5 p {
   color: var(--Black, #000);
   font-family: "Space Grotesk";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; 
+  line-height: 28px;
   margin: 0px 0px 0px 15px;
 }
 
-.link{
+.cards3 p,
+.cards6 p {
+  color: white;
+  font-family: "Space Grotesk";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0px 0px 0px 15px;
+}
+
+.link,
+.link2,
+.link3,
+.link4,
+.link5,
+.link6 {
   margin: 93px 0px 0px 0px;
+}
+
+.link a,
+.link2 a,
+.link4 a,
+.link5 a {
+  text-decoration: none;
+  color: var(--Dark);
   display: flex;
   align-items: center;
+}
+
+.link3 a,
+.link6 a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.image, .image2, .image3, .image4, .image5, .image6{
+  float: right;
+  margin: auto;
 }
 
 .image{
-  margin: 0px 0px 0px 0px;
-  float: right;
+  margin-top: 20px;
 }
 
-.cards2{
-  display: flex;
-  width: 600px;
-  padding: 50px;
-  justify-content: space-between;
-  align-items: center;
-  flex-shrink: 0;
-  border-radius: 45px;
-  border: 1px solid var(--Dark);
-  background: var(--Green);
-  box-shadow: 0px 5px 0px 0px #191A23;
+.image2{
+  margin-top: 35px;
 }
 
-.cards2 h3{
-  display: flex;
-  color: #000;
-  font-family: "Space Grotesk";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 500;
-  flex-direction: column;
-  align-items: center;
-  background-color: var(--Green);
-  border-radius: 7px;
-  padding: 0px 7px 0px 7px;
-  float: left;
+.image4{
+  margin-top: 15px;
 }
 
-.cards2 p{
-  color: var(--Black, #000);
-  font-family: "Space Grotesk";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px; 
-  margin: 0px 0px 0px 15px;
+.image5{
+  margin-top: 12px;
+}
+
+.image6{
+  margin-top: 20px;
 }

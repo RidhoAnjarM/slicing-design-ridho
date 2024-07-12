@@ -1,8 +1,15 @@
-*,
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  display: inline-flex;
 }
 
 :root {
@@ -11,16 +18,20 @@ body {
   --Grey: #F3F3F3;
 }
 
+.container {
+  width: 1443px;
+}
+
 header {
   padding-inline: 100px;
   margin-bottom: 70px;
-  width: 1443px fixed;
+  width: 1443px;
 }
 
 .navbar {
   margin-top: 40px;
   margin-bottom: 70px;
-  width: 1443px fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -128,8 +139,8 @@ header p {
 
 /*Batas header*/
 
-.container {
-  width: 1443px fixed;
+.content {
+  width: 1443px;
   padding-inline: 100px;
   flex-wrap: wrap;
 }
@@ -194,7 +205,7 @@ header p {
   border-radius: 7px;
 }
 
-.content {
+.cardcontent {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -333,27 +344,32 @@ header p {
   align-items: center;
 }
 
-.image, .image2, .image3, .image4, .image5, .image6{
+.image,
+.image2,
+.image3,
+.image4,
+.image5,
+.image6 {
   float: right;
   margin: auto;
 }
 
-.image{
+.image {
   margin-top: 20px;
 }
 
-.image2{
+.image2 {
   margin-top: 35px;
 }
 
-.image4{
+.image4 {
   margin-top: 15px;
 }
 
-.image5{
+.image5 {
   margin-top: 12px;
 }
 
-.image6{
+.image6 {
   margin-top: 20px;
 }

@@ -7,8 +7,6 @@
 body {
   width: 100%;
   justify-content: center;
-  align-items: center;
-  margin: 0 auto;
   display: inline-flex;
 }
 
@@ -55,7 +53,7 @@ header {
 
 .navigasi li {
   list-style: none;
-  padding-right: 40px;
+  margin-right: 40px;
 }
 
 .navigasi li a {
@@ -66,7 +64,6 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  gap: 40px;
 }
 
 .button {
@@ -88,8 +85,15 @@ header {
   align-items: flex-start;
 }
 
-.ilustration {
-  float: right;
+.text{
+  width: 531px;
+  height: 481px;
+}
+
+.hiro{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 header h1 {
@@ -148,7 +152,8 @@ header p {
 .logotypes {
   justify-content: space-between;
   display: flex;
-  width: 100%;
+  width: 1443px;
+  padding-inline: 100px;
 }
 
 .logo {
@@ -170,8 +175,9 @@ header p {
 
 .heading {
   margin: 104px 0px;
-  width: 100%;
+  width: 1443px;
   display: flex;
+  padding-inline: 100px;
 }
 
 .heading h2 {
